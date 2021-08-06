@@ -56,6 +56,8 @@ const server = new ApolloServer({
     console.log(error);
     return error;
   },
+  playground: true,
+  introspection: true,
 });
 
 function installHandler(app) {
