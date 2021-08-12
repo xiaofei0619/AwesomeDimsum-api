@@ -10,7 +10,7 @@ const DISHES = [
     id: 1,
     dishId: 101,
     name: 'Shrimp Dumplings/Ha Kao',
-    image: '../public/image/101.png',
+    image: '/image/101.png',
     category: 'steamed',
     price: 6.50,
     description: 'These shrimp dumplings are transparent and smooth. '
@@ -28,7 +28,7 @@ const DISHES = [
     id: 2,
     dishId: 102,
     name: 'Pork Siu Mai',
-    image: '../public/image/102.png',
+    image: '/image/102.png',
     category: 'steamed',
     price: 6.50,
     description: 'As prepared in Cantonese cuisine, siumaai is also referred to '
@@ -45,7 +45,7 @@ const DISHES = [
     id: 3,
     dishId: 103,
     name: 'Chicken Feet w/Black Bean Sauce',
-    image: '../public/image/103.png',
+    image: '/image/103.png',
     category: 'steamed',
     price: 5.50,
     description: 'Chicken Feet are deep fried and steamed first to make them puffy '
@@ -56,7 +56,7 @@ const DISHES = [
     id: 4,
     dishId: 104,
     name: 'Spareribs w/Black Bean Sauce',
-    image: '../public/image/104.png',
+    image: '/image/104.png',
     category: 'steamed',
     price: 5.50,
     description: 'Steamed pork spare ribs with douchi - salty and fermented black '
@@ -66,7 +66,7 @@ const DISHES = [
     id: 5,
     dishId: 105,
     name: 'Beef Balls',
-    image: '../public/image/105.png',
+    image: '/image/105.png',
     category: 'steamed',
     price: 5.50,
     description: 'Beef ball is a commonly cooked food in Cantonese and overseas Chinese '
@@ -79,7 +79,7 @@ const DISHES = [
     id: 6,
     dishId: 106,
     name: 'Bean Curd Skin Roll in Oyster Sauce',
-    image: '../public/image/106.png',
+    image: '/image/106.png',
     category: 'steamed',
     price: 5.50,
     description: 'The bamboo steamed version is generally known as (鮮竹捲, sin zuk gyun). '
@@ -91,7 +91,7 @@ const DISHES = [
     id: 7,
     dishId: 107,
     name: 'Bean Curd w/Shrimp Paste',
-    image: '../public/image/107.png',
+    image: '/image/107.png',
     category: 'steamed',
     price: 5.50,
     description: 'Tofu filled with ground meat mixture and shrimp paste. Variation of this '
@@ -102,7 +102,7 @@ const DISHES = [
     id: 8,
     dishId: 108,
     name: 'Steam Shrimp Ball w/Sticky Rice',
-    image: '../public/image/108.png',
+    image: '/image/108.png',
     category: 'steamed',
     price: 6.50,
     description: 'Also called pearl meatballs. This is because after steaming, the rice '
@@ -113,7 +113,7 @@ const DISHES = [
     id: 9,
     dishId: 109,
     name: 'Braised Beef Tripe',
-    image: '../public/image/109.png',
+    image: '/image/109.png',
     category: 'steamed',
     price: 6.50,
     description: 'Marinating with a master stock is a specialty of Teochew cuisine, and it '
@@ -127,7 +127,7 @@ const DISHES = [
     id: 10,
     dishId: 110,
     name: 'Sticky Rice in Lotus Leaf',
-    image: '../public/image/110.png',
+    image: '/image/110.png',
     category: 'steamed',
     price: 6.50,
     description: 'Lo mai gai is mostly a southern Chinese food. It contains glutinous rice '
@@ -138,7 +138,7 @@ const DISHES = [
     id: 11,
     dishId: 111,
     name: 'Steam BBQ Pork Buns',
-    image: '../public/image/111.png',
+    image: '/image/111.png',
     category: 'steamed',
     price: 4.50,
     description: 'The traditional steamed version of cha siu bao. Although visually similar to other '
@@ -153,7 +153,7 @@ const DISHES = [
     id: 12,
     dishId: 112,
     name: 'Shrimp & Chive Dumpling',
-    image: '../public/image/112.png',
+    image: '/image/112.png',
     category: 'steamed',
     price: 5.50,
     description: 'Chewy Chinese chive dumplings (jiu cai jiao) are a delicious treat! They are filled with a '
@@ -165,7 +165,7 @@ const DISHES = [
     id: 13,
     dishId: 113,
     name: 'Golden Cream Buns',
-    image: '../public/image/113.png',
+    image: '/image/113.png',
     category: 'steamed',
     price: 5.50,
     description: 'Chinese custard bao (Liu Sha Bao). This is a deliciously sweet and salty dessert. The filling is '
@@ -176,7 +176,7 @@ const DISHES = [
     id: 14,
     dishId: 114,
     name: 'Beef Tripe',
-    image: '../public/image/114.png',
+    image: '/image/114.png',
     category: 'steamed',
     price: 5.50,
     description: 'Dim Sum Tripe Stew is one of those dishes that you either love or won’t touch with a ten foot '
@@ -187,7 +187,7 @@ const DISHES = [
     id: 15,
     dishId: 115,
     name: 'Egg Cream Buns',
-    image: '../public/image/115.png',
+    image: '/image/115.png',
     category: 'steamed',
     price: 5.50,
     description: 'Chinese steamed custard buns also called Nai Wong Bao are deliciously sweet dessert. '
@@ -197,7 +197,7 @@ const DISHES = [
     id: 16,
     dishId: 201,
     name: 'Portuguese Egg White Tarts',
-    image: '../public/image/201.png',
+    image: '/image/201.png',
     category: 'baked',
     price: 6.50,
     description: 'If you have ever been to Portugal, you know that one of the greatest pastries to '
@@ -208,7 +208,7 @@ const DISHES = [
     id: 17,
     dishId: 202,
     name: 'Egg Tarts',
-    image: '../public/image/202.png',
+    image: '/image/202.png',
     category: 'baked',
     price: 5.50,
     description: 'The egg tart, featuring a lard-based puff pastry crust and a filling similar to '
@@ -219,7 +219,7 @@ const DISHES = [
     id: 18,
     dishId: 203,
     name: 'Baked BBQ Buns',
-    image: '../public/image/203.png',
+    image: '/image/203.png',
     category: 'baked',
     price: 4.50,
     description: 'The traditional steamed version of cha siu bao. Although visually similar to other '
@@ -234,7 +234,7 @@ const DISHES = [
     id: 19,
     dishId: 204,
     name: 'Pineapple Buns w/Salted Egg Yok',
-    image: '../public/image/204.png',
+    image: '/image/204.png',
     category: 'baked',
     price: 5.50,
     description: 'The top of the pineapple bun (the part which is made to resemble a pineapple) is '
@@ -249,7 +249,7 @@ const DISHES = [
     id: 20,
     dishId: 205,
     name: 'Pineapple Buns w/Egg Cream',
-    image: '../public/image/205.png',
+    image: '/image/205.png',
     category: 'baked',
     price: 5.50,
     description: 'The top of the pineapple bun (the part which is made to resemble a pineapple) is '
@@ -264,7 +264,7 @@ const DISHES = [
     id: 21,
     dishId: 301,
     name: 'Bread Sticks',
-    image: '../public/image/301.png',
+    image: '/image/301.png',
     category: 'fried',
     price: 3.50,
     description: 'Youtiao is a long golden-brown deep-fried strip of dough commonly eaten in China and '
@@ -278,7 +278,7 @@ const DISHES = [
     id: 22,
     dishId: 302,
     name: 'Fried Shrimp Ball',
-    image: '../public/image/302.png',
+    image: '/image/302.png',
     category: 'fried',
     price: 6.50,
     description: 'Crispy and crunchy shrimp balls, a popular and delicious Chinese appetizer.',
@@ -287,7 +287,7 @@ const DISHES = [
     id: 23,
     dishId: 303,
     name: 'Fried Seafood Roll',
-    image: '../public/image/303.png',
+    image: '/image/303.png',
     category: 'fried',
     price: 6.50,
     description: 'The fried version is known as (腐皮捲, fu pei gyun). The first character "fu" comes '
@@ -300,7 +300,7 @@ const DISHES = [
     id: 24,
     dishId: 304,
     name: 'Pork Dumplings',
-    image: '../public/image/304.png',
+    image: '/image/304.png',
     category: 'fried',
     price: 4.50,
     description: 'These pillow soft Ham Sui Gok (FRIED GLUTINOUS RICE DUMPLINGS) are fried until bubbly, '
@@ -311,7 +311,7 @@ const DISHES = [
     id: 25,
     dishId: 305,
     name: 'Eggplant Stuffed w/Shrimp Pasted',
-    image: '../public/image/305.png',
+    image: '/image/305.png',
     category: 'fried',
     price: 6.50,
     description: 'Fried eggplant filled with ground shrimp paste.',
@@ -320,7 +320,7 @@ const DISHES = [
     id: 26,
     dishId: 306,
     name: 'Taro Gok',
-    image: '../public/image/306.png',
+    image: '/image/306.png',
     category: 'fried',
     price: 5.50,
     description: 'The outer shell is made from a thick layer of taro that has been boiled and mashed. '
@@ -331,7 +331,7 @@ const DISHES = [
     id: 27,
     dishId: 307,
     name: 'Sesame Balls',
-    image: '../public/image/307.png',
+    image: '/image/307.png',
     category: 'fried',
     price: 4.50,
     description: 'Jiandui is a type of fried Chinese pastry made from glutinous rice flour. The pastry '
@@ -343,7 +343,7 @@ const DISHES = [
     id: 28,
     dishId: 308,
     name: 'Crispy Durian Puff',
-    image: '../public/image/308.png',
+    image: '/image/308.png',
     category: 'fried',
     price: 6.50,
     description: 'Our Durian puffs are the perfect bite-sized heaven for durian lovers! Our pastries '
@@ -355,7 +355,7 @@ const DISHES = [
     id: 29,
     dishId: 309,
     name: 'Spring Roll',
-    image: '../public/image/309.png',
+    image: '/image/309.png',
     category: 'fried',
     price: 4.50,
     description: 'Spring roll is a fried dish usually available as a dim sum. They contain minced pork, '
@@ -365,7 +365,7 @@ const DISHES = [
     id: 30,
     dishId: 401,
     name: 'Pan Fried Turnip Cake',
-    image: '../public/image/401.png',
+    image: '/image/401.png',
     category: 'pan-fried',
     price: 4.50,
     description: 'They are cut into rectangular slices and pan-fried before serving. Each pan-fried cake '
@@ -378,7 +378,7 @@ const DISHES = [
     id: 31,
     dishId: 402,
     name: 'Shanghai Pan Fried Buns',
-    image: '../public/image/402.png',
+    image: '/image/402.png',
     category: 'pan-fried',
     price: 5.50,
     description: 'Shengjian is made from semi-leavened dough, wrapped around pork and gelatin fillings. '
@@ -388,7 +388,7 @@ const DISHES = [
     id: 32,
     dishId: 403,
     name: 'Pork w/Vegetable Pot Stiker',
-    image: '../public/image/403.png',
+    image: '/image/403.png',
     category: 'pan-fried',
     price: 5.50,
     description: 'Guangdong gaau ji are rarely home-made because the wrapper, which needs to be thin but '
@@ -399,7 +399,7 @@ const DISHES = [
     id: 33,
     dishId: 501,
     name: 'Steam BBQ Pork Rice Roll',
-    image: '../public/image/501.png',
+    image: '/image/501.png',
     category: 'rice roll-congee',
     price: 5.50,
     description: 'A rice noodle roll (also translated as steamed rice roll) is a Cantonese dish from '
@@ -411,7 +411,7 @@ const DISHES = [
     id: 34,
     dishId: 502,
     name: 'Steam Beef Rice Roll w/Parsley',
-    image: '../public/image/502.png',
+    image: '/image/502.png',
     category: 'rice roll-congee',
     price: 5.50,
     description: 'A rice noodle roll (also translated as steamed rice roll) is a Cantonese dish from '
@@ -424,7 +424,7 @@ const DISHES = [
     id: 35,
     dishId: 503,
     name: 'Steam Shrimp Rice Roll',
-    image: '../public/image/503.png',
+    image: '/image/503.png',
     category: 'rice roll-congee',
     price: 6.50,
     description: 'A rice noodle roll (also translated as steamed rice roll) is a Cantonese dish from '
@@ -437,7 +437,7 @@ const DISHES = [
     id: 36,
     dishId: 504,
     name: 'Steam Golden Shrimp Rice Roll',
-    image: '../public/image/504.png',
+    image: '/image/504.png',
     category: 'rice roll-congee',
     price: 9.25,
     description: 'A rice noodle roll (also translated as steamed rice roll) is a Cantonese dish from '
@@ -450,7 +450,7 @@ const DISHES = [
     id: 37,
     dishId: 505,
     name: 'Steam Rice Roll w/Bread Stick',
-    image: '../public/image/505.png',
+    image: '/image/505.png',
     category: 'rice roll-congee',
     price: 5.50,
     description: 'Zhaliang (Chinese: 炸兩; Cantonese Yale: jaléung) is a Cantonese dim sum. It is '
@@ -461,7 +461,7 @@ const DISHES = [
     id: 38,
     dishId: 506,
     name: 'Preserved Egg & Pork Congee',
-    image: '../public/image/506.png',
+    image: '/image/506.png',
     category: 'rice roll-congee',
     price: 11.00,
     description: 'Chinese Congee is a warm and comforting rice porridge. Preserved century eggs and '
@@ -475,7 +475,7 @@ const DISHES = [
     id: 39,
     dishId: 601,
     name: 'Water Chestnut Cake',
-    image: '../public/image/601.png',
+    image: '/image/601.png',
     category: 'desserts',
     price: 4.50,
     description: 'Water chestnut cake (traditional Chinese: 馬蹄糕; simplified Chinese: 马蹄糕; '
@@ -489,7 +489,7 @@ const DISHES = [
     id: 40,
     dishId: 602,
     name: 'Mango Pudding',
-    image: '../public/image/602.png',
+    image: '/image/602.png',
     category: 'desserts',
     price: 4.50,
     description: 'Mango pudding is a very popular dessert in Hong Kong, where pudding is eaten as a '

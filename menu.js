@@ -8,7 +8,7 @@ async function listDish(_, { search }) {
   const filter = {};
   if (search) filter.$text = { $search: search };
   const cursor = await db.collection('dishes').find(filter)
-    .sort({ id: 1 });
+    .sort({ dishId: 1 });
   const dishes = cursor.toArray();
   return dishes;
 }
@@ -16,6 +16,9 @@ async function listDish(_, { search }) {
 async function getDish(_, { dishId }) {
   const db = getDb();
   const dish = await db.collection('dishes').findOne({ dishId });
+  if (dish === null) {
+    throw new UserInputError('Invalid dishId for fetching dish detail.');
+  }
   return dish;
 }
 
@@ -31,6 +34,9 @@ async function listStock() {
 async function getStock(_, { dishId }) {
   const db = getDb();
   const stock = await db.collection('stocks').findOne({ dishId });
+  if (stock === null) {
+    throw new UserInputError('Invalid dishId for fetching stock.');
+  }
   return stock.stock;
 }
 
@@ -61,7 +67,7 @@ async function listComment(_, { dishId, page }) {
   filter.dishId = dishId;
 
   const cursor = await db.collection('comments').find(filter)
-    .sort({ id: 1 })
+    .sort({ date: -1 })
     .skip(COMMENT_PAGE_SIZE * (page - 1))
     .limit(COMMENT_PAGE_SIZE);
 
