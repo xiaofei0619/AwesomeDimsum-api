@@ -111,6 +111,7 @@ type Order {
     created: GraphQLDate!
     pickup: GraphQLDate!
     subtotal: Float!
+    subtotalDiscount: Float!
     tax: Float!
     total: Float!
     items: String!
@@ -135,6 +136,7 @@ input OrderInputs {
     phone: String!
     pickup: GraphQLDate!
     subtotal: Float!
+    subtotalDiscount: Float!
     tax: Float!
     total: Float!
     items: String!
@@ -179,6 +181,7 @@ type Query {
         page: Int = 1
     ): OrderListWithPages
     order(id: Int!): Order!
+    orderWithOrderId(orderId: String!): Order!
     orderStatusList(
         name: String!
         phone: String!

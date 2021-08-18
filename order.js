@@ -37,6 +37,12 @@ async function getOrder(_, { id }) {
   return order;
 }
 
+async function getOrderWithOrderId(_, { orderId }) {
+  const db = getDb();
+  const order = await db.collection('orders').findOne({ orderId });
+  return order;
+}
+
 function validatePhone(phone) {
   const errors = [];
   const phoneno = /^\(\d\d\d\)\s\d\d\d-\d\d\d\d$/;
@@ -113,5 +119,5 @@ async function updateOrder(_, { orderId, status }) {
 }
 
 module.exports = {
-  listOrder, getOrder, listOrderStatus, getOrderStatus, addOrder, updateOrder,
+  listOrder, getOrder, getOrderWithOrderId, listOrderStatus, getOrderStatus, addOrder, updateOrder,
 };
